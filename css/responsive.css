@@ -449,10 +449,33 @@
     margin: 18px 10px 10px 136px;
     }
     
+    #login #user, #password {
+    margin-left: 22px;
+    
+    
+    #login #password {
+    margin-left: 26px;
+    }
+        
+    #login a {
+    text-decoration: none;
+    color: rgb(37, 108, 55);
+    font-size: 11px;
+    margin: 10px;
+        margin-left: 10px;
+    margin-left: 42px;
+    display: block;
+    transition: all 200ms;
+    }
+        
+    #login .submit {
+    margin-left: 126px;
+    }
+    
     
     
     #banner h1 {
-    font-size: 26px;
+    font-size: 16px;
     margin: 45px 24px;
     }
 
