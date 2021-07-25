@@ -472,12 +472,12 @@
     margin-left: 127px;
     }
     
-    
     #banner h1 {
-    font-size: 50px;
+    font-size: 17px;
     text-align: center;
-    margin: 0px auto;
-    }
+    margin: 44px auto;
+  }
+
     
     
  
@@ -513,7 +513,6 @@
     }
     #banner h1 {
         font-size: 15px;
-        margin: 39px 11px;
     }
 
     #logo .weed {
