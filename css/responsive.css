@@ -307,6 +307,7 @@
         width: 16.5%;
     }
     #lateral{
+        min-height: auto;
         float:none;
         width: 100%;
         margin: 0px auto;
@@ -393,6 +394,18 @@
 
 @media (max-width:516px){
 
+    .card .icon {
+        font-size: 47px;
+    }
+
+    .card:hover .icon {
+        font-size: 48px;
+    }
+    
+    #lateral{
+        min-height: auto;
+    }
+
     #banner h1{
         font-size: 17px;
     } 
@@ -412,11 +425,57 @@
     #social .icon {
         margin: 18px 10px 10px 182px;
     }
-
     .card .category {
-        font-size: 13px;
+        font-size: 10px;
         margin-top: -23px;
+        padding: 2px;
     }
 
+
+
+}
+@media (max-width:375px){
+
+    #menu ul li {
+        font-size: 15px;
+    }
+    #banner h1 {
+        font-size: 15px;
+        margin: 39px 11px;
+    }
+
+    #logo .weed {
+        position: absolute;
+        margin: 29px 45px;
+        font-size: 65px;
+    }
+
+    .card {
+        width: 17.4%;
+    }
+    .card .category {
+        font-size: 10px;
+        margin-top: -23px;
+        padding: 2px;
+    }
+
+    #logo h3 {
+        margin-right: 125px;
+        margin-top: 37px;
+        font-size: 58px;
+        z-index: 1;
+    }
+
+    .card .icon {
+        font-size: 47px;
+    }
+
+    .card:hover .icon {
+        font-size: 48px;
+    }
+
+
+
+    
 
 }
