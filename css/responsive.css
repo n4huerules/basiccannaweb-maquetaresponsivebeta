@@ -440,6 +440,21 @@
 }
 
 @media (max-width:414px){
+    
+    #social .overlay {
+    margin-left: 103px;
+    }
+    
+    #social .icon {
+    margin: 18px 10px 10px 136px;
+    }
+    
+    
+    
+    #banner h1 {
+    font-size: 26px;
+    margin: 45px 24px;
+    }
 
     #lateral .itext {
         width: 88%;
