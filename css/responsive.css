@@ -406,6 +406,10 @@
         min-height: auto;
     }
 
+    #lateral .itext {
+        width: 88%;
+    }
+
     #banner h1{
         font-size: 17px;
     } 
@@ -431,6 +435,31 @@
         padding: 2px;
     }
 
+
+
+}
+
+@media (max-width:414px){
+
+    #lateral .itext {
+        width: 88%;
+    }
+
+    #logo .weed {
+        position: absolute;
+        margin: 28px 53px;
+        font-size: 65px;
+    }
+    #logo h3 {
+        margin-right: 122px;
+        margin-top: 37px;
+        font-size: 58px;
+        z-index: 1;
+    }
+
+    #menu ul li {
+        font-size: 16px;
+    }
 
 
 }
